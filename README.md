@@ -1,12 +1,12 @@
 <h1 align="center"> Hello There 👋 </h1>
 
 
-* Chào mừng đến với [Project by MindX School](https://mindx.edu.vn/) :blush:	 . MindX Technology School - Trường học công nghệ liên cấp ĐẦU TIÊN và DUY NHẤT tại Việt Nam :satellite:
+* Chào mừng đến với [Project by MindX School](https://mindx.edu.vn/)	 . MindX Technology School - Trường học công nghệ liên cấp ĐẦU TIÊN và DUY NHẤT tại Việt Nam
 
-*  Đến với MindX ngay nhé :fireworks: [MindX School](https://bit.ly/3isOutz) :sparkler:
+*  Đến với MindX ngay nhé :fireworks: [MindX School](https://bit.ly/3isOutz)
 
 
-## Sản phẩm mẫu các khóa học tại MindX :computer:
+## Sản phẩm mẫu các khóa học tại MindX
 
 <br>
 <table>
@@ -62,8 +62,6 @@
 <span><b><center><a href="https://mindxdoc.github.io/WI">Web Intensive</a></center></b></span> 
 <img height=65px src="https://resources.mindx.edu.vn/uploads/images/web%20intensive.jpg"> 
 </td>
-</tr>
-
 </tr>
 
 </tbody>
