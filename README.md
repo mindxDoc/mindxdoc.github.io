@@ -13,53 +13,53 @@
 <tbody>
  <tr>
 <td align="center" width="20%">
-<span><b><center>[Scratch Basic](mindxdoc.github.io/SB)</center></b></span> 
+ <span><b><center><a href="https://mindxdoc.github.io/SB">Scratch Basic</a></center></b></span> 
 <img height=60px src="https://resources.mindx.edu.vn/uploads/images/Artboard%2014.jpg"> 
 </td>
 
 <td align="center" width="20%">
-<span><b><center>[Scratch Advanced](mindxdoc.github.io/SA)</center></b></span> 
+<span><b><center><a href="https://mindxdoc.github.io/SA">Scratch Advanced</a></center></b></span> 
 <img height=60px src="https://resources.mindx.edu.vn/uploads/images/Artboard%2015.jpg"> 
 </td>
 
 <td align="center" width="20%">
-<span><b><center>[Scratch Intensive](mindxdoc.github.io/SI)</center></b></span> 
+<span><b><center><a href="https://mindxdoc.github.io/SI">Scratch Intensive</a></center></b></span> 
 <img height=60px src="https://resources.mindx.edu.vn/uploads/images/Artboard%2016.jpg"> 
 </td>
 </tr>
 
 <tr>
 <td align="center" width="20%">
-<span><b><center>[Game Basic](mindxdoc.github.io/GB)</center></b></span> 
+<span><b><center><a href="https://mindxdoc.github.io/GB">Game Basic</a></center></b></span> 
 <img height=65px src="https://resources.mindx.edu.vn/uploads/images/Artboard%2010.jpg"> 
 </td>
 
 <td align="center" width="20%">
-<span><b><center>[Game Advanced](mindxdoc.github.io/GA)</center></b></span> 
+<span><b><center><a href="https://mindxdoc.github.io/GA">Game Advanced</a></center></b></span> 
 <img height=65px src="https://resources.mindx.edu.vn/uploads/images/Artboard%208.jpg"> 
 </td>
 
 <td align="center" width="20%">
-<span><b><center>[Game Intensive](mindxdoc.github.io/GI)</center></b></span> 
+<span><b><center><a href="https://mindxdoc.github.io/GI">Game Intensive</a></center></b></span> 
 <img height=65px src="https://resources.mindx.edu.vn/uploads/images/Artboard%209.jpg"> 
 </td>
 </tr>
 
 <tr>
 <td align="center" width="20%">
-<span><b><center>[Web Basic](mindxdoc.github.io/WB)</center></b></span> 
+<span><b><center><a href="https://mindxdoc.github.io/WB">Web Basic</a></center></b></span> 
 <img height=65px src="https://resources.mindx.edu.vn/uploads/images/Artboard%2012.jpg"> 
 </td>
 
 <td align="center" width="20%">
-<span><b><center>[Web Advanced](mindxdoc.github.io/WA)</center></b></span> 
+<span><b><center><a href="https://mindxdoc.github.io/WA">Web Advanced</a></center></b></span> 
 <img height=65px src="https://resources.mindx.edu.vn/uploads/images/Artboard%2011.jpg"> 
 </td>
 
 
 
 <td align="center" width="20%">
-<span><b><center>[Web Intensive](mindxdoc.github.io/WI)</center></b></span> 
+<span><b><center><a href="https://mindxdoc.github.io/WI">Web Intensive</a></center></b></span> 
 <img height=65px src="https://resources.mindx.edu.vn/uploads/images/web%20intensive.jpg"> 
 </td>
 </tr>
