@@ -4,16 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mẫu</title>
+    <title>MindX Documentation</title>
     <style>
+      .dark-mode {
+        --navbar-color: #fff;
+        --text-color: #333;
+        --bkg-color: #eee;
+        --bg-btn-color: #333;
+        --btn-color: #eee;
+      }
+
+      :root {
+        --navbar-color: #15202b;
+        --text-color: #fff;
+        --bkg-color: #212e3a;
+        --bg-btn-color: #f7ca00;
+        --btn-color: #222;
+      }
       * {
         box-sizing: border-box;
+        transition: background-color 0.4s ease, color 0.3s ease;
       }
 
       body {
         text-align: center;
-        background-color: #eaeff1;
-        color: #333;
+        background-color: var(--bkg-color);
+        color: var(--text-color);
       }
 
       nav {
@@ -23,13 +39,13 @@
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 1.5rem 2rem;
-        background-color: #eaeaea;
+        background-color: var(--navbar-color);
         transition: top 500ms ease-in-out;
       }
 
       nav img {
-          width: 169px;
-          height: 80px;
+        width: 169px;
+        height: 80px;
       }
 
       nav.scroll-up {
@@ -45,6 +61,12 @@
         top: 0;
       }
 
+      .links button {
+        background-color: var(--bg-btn-color);
+        color: var(--btn-color);
+      }
+
+      /* ------ Content ------ */
       h1 a {
         text-decoration: none;
         border-bottom: 0;
@@ -113,7 +135,7 @@
       .name {
         font-size: 24px;
         font-weight: 600;
-
+        color: #333;
         margin-top: 16px;
       }
 
@@ -148,7 +170,6 @@
       }
 
       /* Add style when button is focused or hovered */
-      button:focus,
       button:hover {
         background-color: #0077ff;
         color: #e0efff;
@@ -216,9 +237,21 @@
 
   <body>
     <nav>
-      <div class="logo"><a href="https://mindxdoc.github.io"><img src="https://mindx.edu.vn/images/logo.png" alt="Logo"></a></div>
+      <div class="logo">
+        <a href="https://mindxdoc.github.io"
+          ><img
+            id="logo"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1621507746431/eOj2se7dy.png"
+            alt="Logo"
+        /></a>
+      </div>
       <div class="links">
-        <a href="https://mindx.edu.vn" style="color: #0077ff; font-size: 1rem;">Liên hệ với chúng tôi</a>
+        <a href="https://mindx.edu.vn" style="color: #0077ff; font-size: 1rem"
+          >Get in touch</a
+        >
+        <br />
+        <br />
+        <button onclick="switchTheme()">Change theme</button>
       </div>
     </nav>
     <h1>
@@ -252,7 +285,7 @@
                 11 tuổi
               </p>
 
-              <a href="https://mindxdoc.github.io/SB"
+              <a href="https://mindxschool.com/SB"
                 ><button>Tham khảo sản phẩm mẫu</button></a
               >
             </div>
@@ -282,7 +315,7 @@
                 đến 11 tuổi
               </p>
 
-              <a href="https://mindxdoc.github.io/SA"
+              <a href="https://mindxschool.com/SA"
                 ><button>Tham khảo sản phẩm mẫu</button></a
               >
             </div>
@@ -312,7 +345,7 @@
                 đến 11 tuổi
               </p>
 
-              <a href="https://mindxdoc.github.io/SI"
+              <a href="https://mindxschool.com/SI"
                 ><button>Tham khảo sản phẩm mẫu</button></a
               >
             </div>
@@ -342,7 +375,7 @@
                 10 đến 14 tuổi
               </p>
 
-              <a href="https://mindxdoc.github.io/GB"
+              <a href="https://mindxschool.com/GB"
                 ><button>Tham khảo sản phẩm mẫu</button></a
               >
             </div>
@@ -372,7 +405,7 @@
                 từ 10 đến 14 tuổi
               </p>
 
-              <a href="https://mindxdoc.github.io/GA"
+              <a href="https://mindxschool.com/GA"
                 ><button>Tham khảo sản phẩm mẫu</button></a
               >
             </div>
@@ -402,7 +435,7 @@
                 từ 10 đến 14 tuổi
               </p>
 
-              <a href="https://mindxdoc.github.io/GI"
+              <a href="https://mindxschool.com/GI"
                 ><button>Tham khảo sản phẩm mẫu</button></a
               >
             </div>
@@ -429,7 +462,7 @@
 
               <p>Khoá học lập trình Web cơ bản cho các bạn từ 14 đến 18 tuổi</p>
 
-              <a href="https://mindxdoc.github.io/JSB"
+              <a href="https://mindxschool.com/JSB"
                 ><button>Tham khảo sản phẩm mẫu</button></a
               >
             </div>
@@ -458,7 +491,7 @@
                 Khoá học lập trình Web nâng cao cho các bạn từ 14 đến 18 tuổi
               </p>
 
-              <a href="https://mindxdoc.github.io/JSA"
+              <a href="https://mindxschool.com/JSA"
                 ><button>Tham khảo sản phẩm mẫu</button></a
               >
             </div>
@@ -487,7 +520,7 @@
                 Khoá học lập trình Web chuyên sâu cho các bạn từ 14 đến 18 tuổi
               </p>
 
-              <a href="https://mindxdoc.github.io/JSI"
+              <a href="https://mindxschool.com/JSI"
                 ><button>Tham khảo sản phẩm mẫu</button></a
               >
             </div>
@@ -561,6 +594,23 @@
           throttle(handleNavScroll, 250);
         }
       });
+
+      // change dark-mode
+
+      const imgDark =
+        "https://cdn.hashnode.com/res/hashnode/image/upload/v1621507746431/eOj2se7dy.png";
+
+      const imgLight = "https://mindx.edu.vn/images/logo.png";
+      let logo = document.getElementById("logo");
+
+      function switchTheme() {
+        document.body.classList.toggle("dark-mode");
+        if (logo.src === imgLight) {
+          logo.src = imgDark;
+        } else if (logo.src === imgDark) {
+          logo.src = imgLight;
+        }
+      }
     </script>
   </body>
 </html>
